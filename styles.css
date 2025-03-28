@@ -76,3 +76,41 @@ canvas{
     height: 100vh;
     pointer-events: none;
 }
+
+/* Header */
+#logo{
+    width: 45px;
+}
+
+.header, .navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header{
+    background-color: black;
+    box-shadow: 1px, 1px, 4px color(grey);
+    height: 4.5rem;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: relative;
+    z-index:10;
+}
+
+.navigation_header{
+    gap: 3em;
+    
+}
+
+.navigation_header a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.active{
+    background-color: rgb(40, 39, 39);
+    padding: 10px;
+    border-radius: 10px;
+}
+

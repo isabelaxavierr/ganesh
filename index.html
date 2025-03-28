@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="header" id="header">
+        <div class="logo_header">
+            <img id="logo" src="img/GaneshLogoBranco.png" alt="logo_ganesh"/>
+             
+        </div>
+        <div class="navigation_header">
+            <a href="#" class="active">Notícias</a>
+            <a href="#" class="active">Linguagem</a>
+        </div>
+    </div>
+
     <main>
 
     </main>
@@ -21,7 +33,7 @@
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
-        const fontSize = 15;
+        const fontSize = 20;
         const columns = Math.floor(canvas.width / fontSize);
         const drops = Array(columns).fill(0);
 
