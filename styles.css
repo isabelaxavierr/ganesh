@@ -109,7 +109,7 @@ canvas{
 }
 
 .active{
-    background-color: rgb(40, 39, 39);
+    background-color: rgb(55, 55, 55);
     padding: 10px;
     border-radius: 10px;
 }
