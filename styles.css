@@ -114,3 +114,11 @@ canvas{
     border-radius: 10px;
 }
 
+.ganesh{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding-right: 160px;
+    color:#ffffff;
+    position: relative;
+    z-index:10;
+}
