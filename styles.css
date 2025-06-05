@@ -11,7 +11,7 @@ body{
     background: linear-gradient(180deg, #18230F, #27391C, #255F38, #1F7D53);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
-    background-blend-mode: overlay
+    background-blend-mode: overlay;
 }
 
 footer{
@@ -79,7 +79,8 @@ canvas{
 
 /* Header */
 #logo{
-    width: 45px;
+    margin-top: 25px;
+    width: 60px;
 }
 
 .header, .navigation_header{
@@ -121,4 +122,15 @@ canvas{
     color:#ffffff;
     position: relative;
     z-index:10;
+}
+
+#ganesh_header{
+    color: #ffffff;
+    font-size: 45px;
+
+}
+
+.logo_header{
+    display: flex;
+    justify-content: space-between;
 }
